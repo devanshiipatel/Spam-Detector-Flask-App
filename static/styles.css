@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-attachment: fixed;
+}
+
+#main {
+  margin: 9% 35%;
+  padding: 50px 0;
+  border-style: inset;
+  border-width: 3px;
+  text-align: center;
+  background-color: #f4f6ff;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 12px;
+  line-height: 1.5;
+  font-family: "PT Serif", serif;
+  color: #3b185f;
+}
+
+#msg {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 0 10px 35px;
+}
+
+.predict {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 25px;
+}
+
+#btn {
+  margin-top: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
