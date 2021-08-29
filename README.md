@@ -1,1 +1,1 @@
-# Spam Detector Flask APP
+# Spam Detector Flask App
