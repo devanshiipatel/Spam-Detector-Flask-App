@@ -8,6 +8,17 @@ The dataset is taken from Kaggle and is used for classification of the message. 
 
 <i> Note: For longer sentences the model may not give accurate results because it has been trained on a relatively small dataset. </i>
 
+
 ## Technologies Required
 
 Please refer requirements.txt
+
+
+## Web App
+
+<b> GUI of the web app </b>
+
+### SPAM
+
+
+### HAM
