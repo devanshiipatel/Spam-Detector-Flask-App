@@ -9,9 +9,11 @@ The dataset is taken from Kaggle and is used for classification of the message. 
 <i> Note: For longer sentences the model may not give accurate results because it has been trained on a relatively small dataset. </i>
 
 
+
 ## Technologies Required
 
 Please refer requirements.txt
+
 
 
 ## Web App
@@ -20,9 +22,21 @@ Please refer requirements.txt
 
 ### SPAM
 
-<!-- ![alt text](http://url/to/img.png) -->
+<b> Input: </b>
+
+![Screenshot](spam1.jpg)
+
+<b> Output: </b>
+
+![Screenshot](spam2.jpg)
 
 
 ### HAM
 
+<b> Input: </b>
 
+![Screenshot](ham1.jpg)
+
+<b> Output: </b>
+
+![Screenshot](ham2.jpg)
