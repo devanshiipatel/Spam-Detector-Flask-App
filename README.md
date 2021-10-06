@@ -28,17 +28,17 @@ Please refer requirements.txt
 
 <b> Output: </b>
 
-![Screenshot](spam2.jpg)
+![Screenshot](images/spam2.jpg)
 
 
 ### HAM
 
 <b> Input: </b>
 
-![Screenshot](ham1.jpg)
+![Screenshot](images/ham1.jpg)
 
 <b> Output: </b>
 
-![Screenshot](ham2.jpg)
+![Screenshot](images/ham2.jpg)
 
 
