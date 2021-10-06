@@ -24,7 +24,7 @@ Please refer requirements.txt
 
 <b> Input: </b>
 
-![Screenshot](spam1.jpg)
+![Screenshot](images/spam1.jpg)
 
 <b> Output: </b>
 
