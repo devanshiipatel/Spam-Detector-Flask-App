@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-242619763-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-242619763-1');
+  </script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spam Detector</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="main">
+    <h1>Spam Detector</h1>
+
+    <div>
+      <div id="msg">
+        <h3>Enter your message here:</h3>
+      </div>
+      <form action="{{ url_for('predict')}}" method="POST">
+        <textarea name="message" rows="4" cols="50"></textarea>
+        <br />
+        <input type="submit" value="Detect!" id="btn" />
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
